@@ -35,3 +35,8 @@ jobs:
       - store_artifacts:  
           path: app/build/outputs/apk/debug/
           destination: artifact-file
+      - run:
+          name: code coverage
+          command: ./gradlew koverReport
+      - store_artifacts:
+          path: sapp/build/reports/kover/project-html
