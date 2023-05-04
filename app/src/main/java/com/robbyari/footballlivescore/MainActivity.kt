@@ -14,12 +14,14 @@ import com.google.android.play.core.splitinstall.SplitInstallManagerFactory
 import com.google.android.play.core.splitinstall.SplitInstallRequest
 import com.robbyari.footballlivescore.databinding.ActivityMainBinding
 import com.robbyari.footballlivescore.ui.home.HomeFragment
+import com.scottyab.rootbeer.RootBeer
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var binding: ActivityMainBinding
+    private val rootBeer = RootBeer(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +29,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(binding.root)
 
         setSupportActionBar(binding.appBarMain.toolbar)
+        checkRooted()
 
         val toggle = ActionBarDrawerToggle(
             this,
@@ -46,7 +49,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 .commit()
             supportActionBar?.title = getString(R.string.home)
         }
-
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
@@ -110,5 +112,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     private fun moveToFavoriteActivity() {
         val uri = Uri.parse("footballapp://favorite")
         startActivity(Intent(Intent.ACTION_VIEW, uri))
+    }
+
+    private fun checkRooted() {
+        if (rootBeer.checkSuExists()) {
+            Toast.makeText(applicationContext, getString(R.string.perangkat_terdeteksi_root), Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(applicationContext, getString(R.string.perangkat_aman_dari_root), Toast.LENGTH_SHORT).show()
+        }
     }
 }

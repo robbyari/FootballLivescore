@@ -43,4 +43,6 @@
     <string name="success_installing_module">Success installing module</string>
     <string name="error_installing_module">Error installing module</string>
     <string name="open_module">Open Module</string>
+    <string name="perangkat_terdeteksi_root">Perangkat terdeteksi root!!!</string>
+    <string name="perangkat_aman_dari_root">Perangkat aman dari root.</string>
 </resources>
