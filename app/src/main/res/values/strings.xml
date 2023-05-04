@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Football Livescore</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="submission_capstone">Submission Capstone</string>
+    <string name="premier_league">Premier League</string>
+    <string name="serie_a">Serie A</string>
+    <string name="la_liga">La Liga</string>
+    <string name="bundes_liga">Bundes Liga</string>
+    <string name="ligue_1">Ligue 1</string>
+    <string name="bri_liga_1">BRI Liga 1</string>
+    <string name="image_football">Image Football</string>
+    <string name="piala_dunia_u20_indonesia">Piala Dunia U20 Indonesia</string>
+    <string name="dibatalkan">Dibatalkan</string>
+    <string name="last_match">Last Match</string>
+    <string name="today_match">Today Match</string>
+    <string name="hari_ini_tidak_ada_pertandingan">Hari ini tidak ada pertandingan</string>
+    <string name="logo_aplikasi">Logo Aplikasi</string>
+    <string name="image_background">Image Background</string>
+    <string name="logo_team_away">Logo Team Away</string>
+    <string name="image_status">Image Status</string>
+    <string name="league_logo">League Logo</string>
+    <string name="pembatas">:</string>
+    <string name="summary">Summary</string>
+    <string name="formation">Formation</string>
+    <string name="half_time_score">Half Time Score</string>
+    <string name="full_time_score">Full Time Score</string>
+    <string name="match_round">Match Round</string>
+    <string name="league_year">League Year</string>
+    <string name="referee">Referee</string>
+    <string name="logo_team_home">Logo Team Home</string>
+    <string name="home">Home</string>
+    <string name="detail_match">Detail Match</string>
+    <string name="wib">\ WIB</string>
+    <string name="empty">-</string>
+    <string name="not_started">Not yet started</string>
+    <string name="no_yet">Not yet known</string>
+    <string name="oops">Oops..Match last can\'t show!!</string>
+    <string name="oops_today">Oops..Match today can\'t show!!</string>
+    <string name="success_installing_module">Success installing module</string>
+    <string name="error_installing_module">Error installing module</string>
+    <string name="open_module">Open Module</string>
+</resources>

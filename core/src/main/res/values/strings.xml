@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo_home_team">Logo Home Team</string>
+    <string name="logo_away_team">Logo Away Team</string>
+    <string name="vs">VS</string>
+    <string name="pembatas">:</string>
+</resources>

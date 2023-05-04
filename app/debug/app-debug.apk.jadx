@@ -1,0 +1,85 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "../release/app-release.apk"
+  ],
+  "treeExpansions": [
+    [
+      "app-release.apk"
+    ],
+    [
+      "Source code",
+      "app-release.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 5,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "P.E",
+      "subPath": "java",
+      "caret": 53,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "P.D",
+      "subPath": "java",
+      "caret": 112,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "P.d",
+      "subPath": "java",
+      "caret": 276,
+      "view": {
+        "x": 0,
+        "y": 137
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "L1.b",
+      "subPath": "java",
+      "caret": 108,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "resource",
+      "tabPath": "res/menu/activity_main_drawer.xml",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 1,
+  "cacheDir": "../release/app-release.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": []
+}

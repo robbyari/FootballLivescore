@@ -1,0 +1,21 @@
+<project version="4">
+  <component name="EntryPointsManager">
+    <pattern value="com.robbyari.core.utils.AppExecutors" />
+    <pattern value="com.robbyari.core.utils.AppExecutors" method="mainThread" />
+    <pattern value="com.robbyari.core.utils.AppExecutors" method="networkIO" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.024875290987695378" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
