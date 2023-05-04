@@ -39,4 +39,4 @@ jobs:
           name: code coverage
           command: ./gradlew koverReport
       - store_artifacts:
-          path: sapp/build/reports/kover/project-html
+          path: app/build/reports/kover/project-html
