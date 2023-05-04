@@ -40,3 +40,4 @@ jobs:
           command: ./gradlew koverReport
       - store_artifacts:
           path: app/build/reports/kover/project-html
+          destination: kover
