@@ -15,8 +15,8 @@ import java.util.concurrent.TimeUnit
 @Module
 @InstallIn(SingletonComponent::class)
 class NetworkModule {
-    val hostname = "apiv3.apifootball.com"
-    val certificatePinner = CertificatePinner.Builder()
+    private val hostname = "apiv3.apifootball.com"
+    private val certificatePinner = CertificatePinner.Builder()
         .add(hostname, "sha256/q34kGFLFqHq6rJ1yRcQS3IZHgNt2ZIzXCLjptWGNWsA=")
         .add(hostname, "sha256/jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0=")
         .build()
