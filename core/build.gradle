@@ -24,6 +24,11 @@ android {
             consumerProguardFiles 'proguard-rules.pro'
             proguardFiles 'proguard-rules-dic.pro', 'proguard-rules.pro'
         }
+        debug {
+            minifyEnabled true
+            consumerProguardFiles 'proguard-rules.pro'
+            proguardFiles 'proguard-rules-dic.pro', 'proguard-rules.pro'
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
