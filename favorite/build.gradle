@@ -14,15 +14,12 @@ android {
     }
 
     buildTypes {
-        release {
-            minifyEnabled false
-            consumerProguardFiles 'proguard-rules.pro'
-            proguardFiles 'proguard-rules-dic.pro', 'proguard-rules.pro'
-        }
         debug {
             minifyEnabled false
-            consumerProguardFiles 'proguard-rules.pro'
-            proguardFiles 'proguard-rules-dic.pro', 'proguard-rules.pro'
+            debuggable false
+        }
+        release {
+            minifyEnabled false
         }
     }
     compileOptions {

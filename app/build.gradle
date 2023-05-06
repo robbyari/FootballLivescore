@@ -22,15 +22,14 @@ android {
     }
 
     buildTypes {
-        release {
-            minifyEnabled true
-            consumerProguardFiles 'proguard-rules.pro'
-            proguardFiles 'proguard-rules-dic.pro', 'proguard-rules.pro'
-        }
         debug {
             minifyEnabled true
-            consumerProguardFiles 'proguard-rules.pro'
-            proguardFiles 'proguard-rules-dic.pro', 'proguard-rules.pro'
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
